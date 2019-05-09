@@ -1,0 +1,15 @@
+<html>
+<head><title>${title}</title></head>
+<body>
+<table>
+${tableComment}
+<#list list as map>
+<tr>
+<td>${map.COLUMN_NAME}</td>
+<td>${map.TYPE_NAME}</td>
+<td>${map.REMARKS}</td>
+</tr>
+</#list>
+</table>
+</body>
+</html>
